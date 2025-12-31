@@ -120,13 +120,10 @@ def main():
     source_file = project_root / "README.md"
     target_file = project_root / "README_EN.md"
     
-    logger.info("=" * 60)
-    logger.info("README 自动翻译工具")
-    logger.info("=" * 60)
+    logger.info("README 自动翻译工具:")
     logger.info(f"项目根目录: {project_root}")
     logger.info(f"源文件: {source_file}")
     logger.info(f"目标文件: {target_file}")
-    logger.info("=" * 60)
     
     # 检查源文件是否存在
     if not source_file.exists():
