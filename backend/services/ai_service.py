@@ -190,7 +190,7 @@ class AIService:
         
         Args:
             prompt: 生成提示词
-            thinking_budget: 思考预算（会根据 enable_reasoning 配置自动调整）
+            thinking_budget: 思考预算（会根据 enable_text_reasoning 配置自动调整）
             
         Returns:
             解析后的JSON对象（字典或列表）
@@ -223,7 +223,7 @@ class AIService:
         Args:
             prompt: 生成提示词
             image_path: 图片文件路径
-            thinking_budget: 思考预算（会根据 enable_reasoning 配置自动调整）
+            thinking_budget: 思考预算（会根据 enable_text_reasoning 配置自动调整）
             
         Returns:
             解析后的JSON对象（字典或列表）
@@ -508,7 +508,7 @@ class AIService:
                             logger.warning(f"Invalid image reference: {ref_img}, skipping...")
             
             logger.debug(f"Calling image provider for generation with {len(ref_images)} reference images...")
-            logger.debug(f"Enable reasoning/thinking: {self.enable_reasoning}")
+            logger.debug(f"Enable image reasoning/thinking: {self.enable_image_reasoning}, budget: {self._get_image_thinking_budget()}")
             
             # 使用 image_provider 生成图片
             # 根据 enable_image_reasoning 配置控制图像生成的思考模式
