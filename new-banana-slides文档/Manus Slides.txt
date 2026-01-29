@@ -1,0 +1,62 @@
+Manus Slides 
+https://manus.im/docs/features/slides
+
+Manus creates complete presentations from a simple description. It conducts research, develops content, designs slides, generates visuals, and writes detailed speaker notes—delivering presentation-ready decks in minutes.
+
+Quick Start
+
+
+
+Basic Request
+“Create a 15-slide pitch deck for our AI customer service platform targeting enterprise clients.”
+
+Detailed Request
+“Create a Q3 business review presentation. Cover: revenue (up 23%), customer acquisition (down 15% cost), product launches (mobile app, API v2), and Q4 priorities. Make it executive-friendly with clear charts.”
+
+From Existing Content
+“Turn this research report into a 20-slide conference presentation for a technical audience. Include key charts and add speaker notes.”
+
+Using Themes
+
+Pre-Built Templates
+
+
+Upload Your Template
+Click on Import template
+Upload your PowerPoint template (.pptx)
+Manus applies your layouts, colors, and fonts
+What Manus Creates
+
+Slides: Professional layouts with clear visual hierarchy
+Content: Research-backed, well-structured narrative
+Visuals: Custom charts, diagrams, and generated images
+Speaker Notes: Detailed talking points for every slide
+Branding: Consistent colors, fonts, and styling
+Collaborate with Teams
+
+Export Formats
+
+PowerPoint (.pptx): Fully editable in PowerPoint or Google Slides
+PDF: Print-ready for distribution
+Web Slides: Interactive browser-based presentation
+Speaker Notes Document: Separate file with all notes
+Tips for Better Presentations
+
+Be specific about audience:
+✅ “Technical audience familiar with ML”
+✅ “Business executives, no technical background”
+❌ “General audience”
+Define the goal:
+✅ “Convince investors to fund us”
+✅ “Educate students on the basics”
+❌ “Present information”
+Specify length and timing:
+✅ “15 slides for 20-minute presentation”
+✅ “30 slides for 1-hour workshop”
+❌ “Make some slides”
+Let Manus research:
+✅ “Research current market trends and include them”
+❌ Providing all content yourself
+Common Questions
+
+Can I edit slides after creation? Yes. Download the .pptx file and edit in any presentation software. How long does it take? 5-15 minutes depending on complexity. Simple 10-slide deck: ~5 min. Complex 40-slide research presentation: ~15 min. Can Manus use my company template? Yes. Upload your .pptx template file. What if I need changes? Ask Manus to make changes through conversation, or edit the PowerPoint file directly. Can Manus create charts from my data? Yes. Upload your data (CSV, Excel), and Manus will create appropriate visualizations. What languages are supported? All major languages. Specify in your request: “Create in Spanish…”
